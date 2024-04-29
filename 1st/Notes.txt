@@ -1,0 +1,7 @@
+Node js are static, to change it to danamic we use 
+
+- Handlebar js
+- pug js
+- E js
+
+this is runned in Single server.

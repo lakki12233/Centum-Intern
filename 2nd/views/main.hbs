@@ -1,0 +1,14 @@
+<h2>List of my fav IPL teams</h2>
+{{> loveipl}}
+
+<h2>List of my hate IPL teams</h2>
+{{> hateipl}}
+
+<h2>pro players playing</h2>
+{{#if listExists}}
+<ul>
+    {{#each proplayer}}
+    <li class="{{this.role}}">{{this.name}}</li>
+    {{/each}}
+</ul>
+{{/if}}
